@@ -1,0 +1,15 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script type="text/javascript">
+function callEndpoint() {
+    $.getJSON('http://localhost:8080/tournament', function(data) {
+        $('#output').append(data.location);
+    });
+}
+callEndpoint();
+</script>
+<body>
+<div id="output"></div>
+</body>
+</html>
