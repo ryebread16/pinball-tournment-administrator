@@ -1,4 +1,4 @@
-package com.pinball.startup;
+package com.pinball.resource;
 
 public class Tournament {
 
